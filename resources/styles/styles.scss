@@ -27,4 +27,28 @@ body{
     color:seashell;
     background-color: black;
     text-align: center;
+
+    header{
+        height: 69px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        border-bottom: 1px solid seashell;
+        img{
+            display: inline;
+            float: left;
+            height: 50px;
+            vertical-align: middle;
+        }
+        nav{
+            display:inline;
+            float: right;
+            a{
+                @include styleLink();
+                padding: 0 0.5rem;
+            }
+        }
+    }
 }

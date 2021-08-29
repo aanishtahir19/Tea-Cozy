@@ -20,4 +20,41 @@ body {
   background-color: black;
   text-align: center;
 }
+
+body header {
+  height: 69px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid seashell;
+}
+
+body header img {
+  display: inline;
+  float: left;
+  height: 50px;
+  vertical-align: middle;
+}
+
+body header nav {
+  display: inline;
+  float: right;
+}
+
+body header nav a {
+  text-decoration: underline;
+  color: white;
+  padding: 0 0.5rem;
+}
 /*# sourceMappingURL=styles.css.map */
