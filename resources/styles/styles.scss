@@ -51,4 +51,29 @@ body{
             }
         }
     }
+    // Main Section Start
+    section{
+        padding: 0 20px;
+        #main{
+            background-image: url(../images/img-mission-background.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 700px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            
+            #main-headings{
+                background-color: black;
+                width: 100%;
+                padding:10px;
+                h2{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    // Main Section End
+
 }
