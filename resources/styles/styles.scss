@@ -1,0 +1,30 @@
+// Fonts
+@font-face {
+    font-family: global-font;
+    src: url(../fonts/Helvetica-Font/Helvetica.ttf);
+}
+
+// Global Styles 
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    opacity: 0.9;
+}
+
+
+// Mixin
+@mixin styleLink {
+    text-decoration: underline;
+    color:white;
+}
+
+body{
+    font-family: global-font, sans-serif;          
+    font-size: 22px;
+    color:seashell;
+    background-color: black;
+    text-align: center;
+}
