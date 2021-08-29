@@ -102,5 +102,57 @@ body{
             }
         }
     }
+    // Locations
+    section{
+        padding:10px;
+
+        #location{
+            height: 500px;
+            background-image: url(../images/img-locations-background.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            h2{
+                margin-bottom: 15px;
+                padding-top: 40px;
+            }
+            #location-tiles{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                #location-tile{
+                    background-color: black;
+                    margin:20px;
+                    padding:20px;
+                    width: 300px;
+                    opacity: 1;
+                    
+                    h4{
+                        margin-bottom: 15px;
+                    }
+                    p{
+                        line-height: 3;
+                        font-size:20px;
+                    }
+                }
+            }
+        }
+    }
+    // Footer
+    footer{
+        margin-top: 20px;
+        height: 200px;
+        padding: 0 20px;
+        h2{
+            margin-bottom: 30px;
+        }
+        h5{
+            margin-bottom: 30px;
+        }
+        p{
+            float: left;
+            font-size: 18px;
+        }
+    }
 
 }

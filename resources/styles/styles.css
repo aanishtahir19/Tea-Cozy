@@ -128,4 +128,69 @@ body section #tea-of-the-month .flexbox #image-tile img {
   height: 200px;
   margin-bottom: 10px;
 }
+
+body section {
+  padding: 10px;
+}
+
+body section #location {
+  height: 500px;
+  background-image: url(../images/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+body section #location h2 {
+  margin-bottom: 15px;
+  padding-top: 40px;
+}
+
+body section #location #location-tiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section #location #location-tiles #location-tile {
+  background-color: black;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  opacity: 1;
+}
+
+body section #location #location-tiles #location-tile h4 {
+  margin-bottom: 15px;
+}
+
+body section #location #location-tiles #location-tile p {
+  line-height: 3;
+  font-size: 20px;
+}
+
+body footer {
+  margin-top: 20px;
+  height: 200px;
+  padding: 0 20px;
+}
+
+body footer h2 {
+  margin-bottom: 30px;
+}
+
+body footer h5 {
+  margin-bottom: 30px;
+}
+
+body footer p {
+  float: left;
+  font-size: 18px;
+}
 /*# sourceMappingURL=styles.css.map */
